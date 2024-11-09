@@ -1,0 +1,11 @@
+if [ $((16#$hash_bytes)) -lt "$difficulty_raw" ]; then
+    echo
+    echo "SOLUTION FOUND"
+    echo "Your unblock code is: $pw"
+    echo "This is the code you enter into the site to pass the challenge."
+    echo
+    break
+else
+    elapsed_time
+    n=$((n + $)) 
+access
